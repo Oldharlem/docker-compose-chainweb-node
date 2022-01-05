@@ -162,7 +162,7 @@ services:
     - --chainweb-version=${NETWORK:-mainnet01}
     - --enable-mining-coordination
     - --mining-public-key=${MINER_KEY:?MINER_KEY environment variable not set}
-    - --log-level=info
+    - --log-level=warn
     - --log-handle=stderr
     - --telemetry-log-handle=stderr
     - --p2p-port=1789
@@ -194,7 +194,7 @@ services:
     - "--node=chainweb-node:1848"
     - "--worker=stratum"
     - "--thread-count=2"
-    - "--log-level=debug"
+    - "--log-level=info"
     - "--no-tls"
     - "--stratum-port=1917"
     - "--stratum-difficulty=46"

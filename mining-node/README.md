@@ -1,8 +1,5 @@
 # Docker Compose Setup For A Chainweb Mining Node
 
-Medium setup guide:
-[https://medium.com/@solvman/docker-compose-setup-for-a-chainweb-mining-node-on-ubuntu-20-04-2ca0e13ea40b][Medium Guide]
-
 Before you start familiarize yourself with the Kadena blockchain. You should
 have a rough understanding of key pairs, different chains, Pact accounts (in
 particular k-accounts), and how to transfer funds between accounts on the same
@@ -186,5 +183,3 @@ resume the validation from the point it failed before.
 **In any case** never use a Chainweb database in production if validation didn't
 complete successfully.
 
-
-[Medium Guide]: https://medium.com/@solvman/docker-compose-setup-for-a-chainweb-mining-node-on-ubuntu-20-04-2ca0e13ea40b
