@@ -197,7 +197,7 @@ services:
     - "--log-level=info"
     - "--no-tls"
     - "--stratum-port=1917"
-    - "--stratum-difficulty=46"
+    - "--stratum-difficulty=45"
     depends_on:
       chainweb-node:
         condition: service_healthy
